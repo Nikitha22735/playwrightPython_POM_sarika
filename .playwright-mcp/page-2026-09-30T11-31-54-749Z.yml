@@ -1,0 +1,37 @@
+- generic [ref=f7e3]:
+  - link "www.amazon.in" [ref=f7e6] [cursor=pointer]:
+    - /url: /ref=ap_frn_logo
+    - text: .in
+  - generic [ref=f7e8]:
+    - alert [ref=f7e11]:
+      - generic [ref=f7e12]:
+        - heading "There was a problem" [level=4] [ref=f7e13]
+        - generic [ref=f7e15]: Your password is incorrect
+    - generic [ref=f7e19]:
+      - heading "Sign in" [level=1] [ref=f7e20]
+      - generic [ref=f7e21]:
+        - text: trainingplaywright@gmail.com
+        - link "Change" [ref=f7e22] [cursor=pointer]:
+          - /url: https://www.amazon.in/ap/signin?arb=008f3b60-c830-404e-a8a2-6385a7e7f10f&ref_=ap_pwd_change
+      - generic [ref=f7e24]:
+        - generic [ref=f7e25]:
+          - generic [ref=f7e26]:
+            - generic [ref=f7e27]: Password
+            - link "Forgot password?" [ref=f7e30] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/forgotpassword?openid.pape.max_auth_age=0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&signInRedirectToFPPThreshold=5&prepopulatedCustomerId=eyJjaXBoZXIiOiJ1aTZTM2VDUWFzZkprbTNIcDBpSURnPT0iLCJJViI6Inl2T0VvcVA3a0tkY05tcGN3TmtmQUE9PSIsInZlcnNpb24iOjN9&pageId=inflex&useSHuMAWorkflow=false&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&prevRID=7NMTN7RCXSDWHNSVB90V&openid.assoc_handle=inflex&openid.mode=checkid_setup&prepopulatedLoginId=eyJjaXBoZXIiOiJjWXM5RUIwdy9WeFlEWmw5bGluY24xUEs3cE05U3g5aE1KT3FUeEJmQ1dNPSIsIklWIjoiN3JGUmlMS3NPOWd4RlBjQ2o5ancydz09IiwidmVyc2lvbiI6M30%3D&failedSignInCount=1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&timestamp=1790767904000
+          - textbox "Password" [active] [ref=f7e31]
+        - generic [ref=f7e34] [cursor=pointer]:
+          - button "Sign in" [ref=f7e35]
+          - generic [aria-hidden] [ref=f7e36]: Sign in
+  - generic [ref=f7e37]:
+    - list [ref=f7e41]:
+      - listitem [ref=f7e42]:
+        - link "Conditions of Use" [ref=f7e43] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940
+      - listitem [ref=f7e44]:
+        - link "Privacy Notice" [ref=f7e45] [cursor=pointer]:
+          - /url: /gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380
+      - listitem [ref=f7e46]:
+        - link "Help" [ref=f7e47] [cursor=pointer]:
+          - /url: /help
+    - generic [ref=f7e48]: © 1996-2026, Amazon.com, Inc. or its affiliates
