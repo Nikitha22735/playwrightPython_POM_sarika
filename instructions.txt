@@ -48,3 +48,7 @@ git diff filepath
 
 
 checkout the branch
+
+git add filepath //   git add .
+git commit -m "changes1"
+git push
