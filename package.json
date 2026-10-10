@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "smokeTestcases": "npx playwright test --grep smoke --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
     "@types/node": "^26.6.3"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.3",
+    "dotenv": "^18.0.5",
+    "xlsx": "^0.18.5"
   }
 }

@@ -2,7 +2,7 @@ import { test } from '@playwright/test';
 import { authPage } from '../pages/auth';
 import { homePage } from '../pages/home';
 
-test('starts Amazon sign-in with the configured email', async ({ page }) => {
+test('starts Amazon sign-in with the configured email @smoke', async ({ page }) => {
   const loginEmail = "trainingplaywright@gmail.com"
   const loginPassword = "Welcome@04"
 //   test.skip(!loginPassword, 'Set AMAZON_LOGIN_PASSWORD to run this sign-in test.');
@@ -34,3 +34,5 @@ test('shows an error for an invalid Amazon password', async ({ page }) => {
   await authPageObj.submitSignIn();
   await authPageObj.validateInvalidPasswordError();
 });
+
+//test

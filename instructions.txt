@@ -28,3 +28,23 @@ LLM + MCP server   --- agent
 ==================
 1. GIT
 2. GitHub
+
+=====
+
+
+if(conf){
+    pass
+}
+else{
+
+}
+
+cond?state:state2
+
+=============
+git status
+
+git diff filepath
+
+
+checkout the branch
